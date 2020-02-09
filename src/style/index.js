@@ -3,12 +3,11 @@ import styled from 'styled-components';
 export const RootStyle = styled.div `
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-    }
+    background-color: #f2f2f2;
 `;
 
 export const LogoStyle = styled.div ` 
     width: 100%;
-    text-align: center;
-    margin-left: 50px;
+    text-align: left;
+    background-color: #d9d9d9;
 `

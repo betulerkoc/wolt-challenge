@@ -1,10 +1,10 @@
 import React from 'react'
 import Restaurant from '../RestaurantCard/index'
-import { RestauranContext } from '../../context/restaurant'
+import { RestaurantContext } from '../../context/restaurant'
 import {ListStyle} from './style/index'
 
 export default function RestaurantList() {
-    const {restaurant} = React.useContext(RestauranContext);
+    const {restaurant} = React.useContext(RestaurantContext);
 
     return (
         <ListStyle>
