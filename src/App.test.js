@@ -22,7 +22,7 @@ describe('RestaurantCard Component', () => {
   });
 
   it('Should render restaurant name', () => {
-    const text = wrapper.find('h5').text();
+    const text = wrapper.find('h2').text();
     expect(text).toEqual('betul');
   });
 
@@ -42,7 +42,7 @@ describe('RestaurantCard Component', () => {
   });
 
   it('Should renders restaurant serves online or not', () => {
-    const text = wrapper.find('h2').text();
+    const text = wrapper.find('h3').text();
     expect(text).toEqual('Online: Yes');
   });
 });

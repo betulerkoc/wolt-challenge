@@ -7,7 +7,7 @@ const RestaurantContext = React.createContext();
 function RestaurantProvider({children}) {
 
     const[restaurant, setRestaurant] = React.useState([]);
-    const[selectValue, setSelectValue] = React.useState("");
+    const[selectValue, setSelectValue] = React.useState("za");
 
     const getRestaurant = () => {
         let datas = [];
@@ -23,10 +23,6 @@ function RestaurantProvider({children}) {
             //console.log(datas);
         }
     }   
-
-    React.useEffect(() => {
-        getRestaurant();
-    }, []);
 
     const handleChange = (e) => {
         //console.log(e.target.value)

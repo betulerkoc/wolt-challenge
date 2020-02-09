@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './woltlogo.svg';
+import logo from './woltlogoo.svg';
 import {RestaurantContext} from './context/restaurant'
 import RestaurantList from './components/RestaurantList/index'
 import Sort from './components/Sort/index'

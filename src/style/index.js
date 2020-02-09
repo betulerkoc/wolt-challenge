@@ -8,7 +8,5 @@ export const RootStyle = styled.div `
 `;
 
 export const LogoStyle = styled.div ` 
-    width: 100%;
-    text-align: left;
-    background-color: #d9d9d9;
+    text-align: center;
 `
