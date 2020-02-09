@@ -1,16 +1,16 @@
 import React from 'react'
-import Restaurant from './Restaurant'
-import { RestauranContext } from '../context/restaurant'
+import Restaurant from '../RestaurantCard/index'
+import { RestauranContext } from '../../context/restaurant'
+import {ListStyle} from './style/index'
 
 export default function RestaurantList() {
     const {restaurant} = React.useContext(RestauranContext);
 
-    console.log(restaurant)
     return (
-        <div>
+        <ListStyle>
             {restaurant.map(item => {
                 return <Restaurant key = {item.image} {...item}/>
             }) }
-        </div>
+        </ListStyle>
     )
 }
