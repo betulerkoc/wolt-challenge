@@ -5,7 +5,7 @@ In order to run project:
         -npm run start
 
 
-Technologies that are used in this porject:
+Technologies that are used in this project:
         -Context API
         -React Hooks
         -Styled Components
