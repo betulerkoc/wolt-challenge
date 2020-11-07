@@ -1,11 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Link: https://wolt-challenge-862851.netlify.app/
 
 In order to run project:
         -npm install
         -npm run start
 
 
-Technologies that are used in this porject:
+Technologies that are used in this project:
         -Context API
         -React Hooks
         -Styled Components
